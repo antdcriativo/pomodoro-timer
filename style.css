@@ -3,3 +3,6 @@
     margin: 0;
 }
 
+input {
+    width: 150px !important;
+}
