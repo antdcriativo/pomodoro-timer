@@ -11,8 +11,6 @@ var lofi = document.getElementById('lofi')
 var pause = document.getElementById('pause')
 var play = document.getElementById('play')
 
-document.getElementById('timer').style.setProperty('display', 'none', 'important')
-
 function iniciar() {
     if (acao.value == 0) {
         document.getElementById('erro_acao').innerHTML = "Adicione os minutos"
