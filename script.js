@@ -11,6 +11,8 @@ var lofi = document.getElementById('lofi')
 var pause = document.getElementById('pause')
 var play = document.getElementById('play')
 
+document.getElementById('times').style.setProperty('display', 'none', 'important')
+
 function iniciar(){
     if (acao.value == 0){
         document.getElementById('erro_acao').innerHTML= "Adicione os minutos"
@@ -25,6 +27,12 @@ function iniciar(){
     else {
         lofi.play()
         pause.style.setProperty('display', 'block', 'important')
+
+        localStorage.setItem('acao', String(acao.value))
+        localStorage.setItem('pausa', String(pausa.value))
+        localStorage.setItem('sessoes', String(sessoes.value))
+
+        document.getElementById('times').style.setProperty('display', 'block', 'important')
     }
 
 }
