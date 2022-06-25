@@ -59,8 +59,8 @@ function iniciar() {
         min = min - 1
         segundos = 59
 
-        document.getElementById('minutos_ok').innerHTML = 'min'
-        document.getElementById('seconds_ok').innerHTML = 'segundos'
+        document.getElementById('minutos_ok').innerHTML = min
+        document.getElementById('seconds_ok').innerHTML = segundos
 
         var min_interval = setInterval(minTimer, 60000)
         var seg_interval = setInterval(segTimer, 1000)
