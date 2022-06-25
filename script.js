@@ -8,7 +8,7 @@ var volta = new Audio("./audio/volta.mp3")
 var final = new Audio("./audio/final.mp3")
 
 var lofi = document.getElementById('lofi')
-var pause = document.getElementById('pausa')
+var pause = document.getElementById('pause')
 var play = document.getElementById('play')
 
 function iniciar(){
