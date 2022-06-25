@@ -58,7 +58,7 @@ function momentoAcao() {
     min = min - 1
     segundos = 59
 
-    document.getElementById('minutos_ok').innerHTML = min
+    document.getElementById('minutes_ok').innerHTML = min
     document.getElementById('seconds_ok').innerHTML = segundos
 
     var min_interval = setInterval(minTimer, 60000)
