@@ -78,7 +78,7 @@ function momentoAcao() {
                 clearInterval(min_interval)
                 clearInterval(seg_interval)
 
-                bell.play()
+                bell.play();
 
                 momentoPausa()
             }
