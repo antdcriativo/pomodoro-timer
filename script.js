@@ -66,7 +66,7 @@ function momentoAcao() {
 
     function minTimer() {
         min = min - 1
-        document.getElementById('minutos_ok').innerHTML = min
+        document.getElementById('minutes_ok').innerHTML = min
     }
 
     function segTimer() {
@@ -100,7 +100,7 @@ function momentoPausa() {
     min_pausa = min_pausa - 1
     segundos = 59
 
-    document.getElementById('minutos_ok').innerHTML = min_pausa
+    document.getElementById('minutes_ok').innerHTML = min_pausa
     document.getElementById('seconds_ok').innerHTML = segundos
 
     var min_interval = setInterval(minTimer, 60000)
@@ -108,7 +108,7 @@ function momentoPausa() {
 
     function minTimer() {
         min_pausa = min_pausa - 1
-        document.getElementById('minutos_ok').innerHTML = min_pausa
+        document.getElementById('minutes_ok').innerHTML = min_pausa
     }
 
     function segTimer() {
