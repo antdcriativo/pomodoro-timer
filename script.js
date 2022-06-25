@@ -18,7 +18,7 @@ function iniciar(){
     } else if(pausa.value == 0){
         document.getElementById('erro_pausa').innerHTML= "Adicione a pausa"
         pausa.focus()
-    } else if(sessao.value == 0){
+    } else if(sessoes.value == 0){
         document.getElementById('erro_sessoes').innerHTML= "Adicione as sessões"
         sessoes.focus()
     }
