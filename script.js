@@ -34,6 +34,8 @@ function iniciar(){
 
         document.getElementById('config').style.setProperty('display', 'none', 'important')
         document.getElementById('timer').style.setProperty('display', 'block', 'important')
+
+        momentoAcao()
     }
 
 }
