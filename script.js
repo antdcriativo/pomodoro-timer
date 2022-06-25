@@ -11,7 +11,7 @@ var lofi = document.getElementById('lofi')
 var pause = document.getElementById('pause')
 var play = document.getElementById('play')
 
-document.getElementById('times').style.setProperty('display', 'none', 'important')
+document.getElementById('timer').style.setProperty('display', 'none', 'important')
 
 function iniciar(){
     if (acao.value == 0){
@@ -32,7 +32,7 @@ function iniciar(){
         localStorage.setItem('pausa', String(pausa.value))
         localStorage.setItem('sessoes', String(sessoes.value))
 
-        document.getElementById('times').style.setProperty('display', 'block', 'important')
+        document.getElementById('timer').style.setProperty('display', 'block', 'important')
     }
 
 }
