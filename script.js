@@ -19,7 +19,7 @@ function iniciar(){
         document.getElementById('erro_pausa').innerHTML= "Adicione a pausa"
         pausa.focus()
     } else if(sessao.value == 0){
-        document.getElementById('erro_sessao').innerHTML= "Adicione as sessões"
+        document.getElementById('erro_sessoes').innerHTML= "Adicione as sessões"
         sessoes.focus()
     }
     else {
