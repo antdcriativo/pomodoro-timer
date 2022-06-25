@@ -124,6 +124,7 @@ function iniciar() {
 
                     clearInterval(min_interval)
                     clearInterval(seg_interval)
+
                     if (ses <= 0) {
                         final.play()
                         localStorage.clear()
@@ -132,10 +133,9 @@ function iniciar() {
                         document.getElementById('fim').style.setProperty('display', 'block', 'important')
                     } else {
                         volta.play()
+
                         momentoAcao()
                     }
-
-                    volta.play()
 
                 }
 
