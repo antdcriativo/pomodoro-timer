@@ -131,7 +131,7 @@ function momentoPausa() {
                     document.getElementById('timer').style.setProperty('display', 'none', 'important')
                     document.getElementById('fim').style.setProperty('display', 'block', 'important')
                 } else {
-                    volta.play()
+                    volta.play();
 
                     momentoAcao()
                 }
