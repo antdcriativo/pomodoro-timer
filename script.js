@@ -98,10 +98,10 @@ function momentoPausa() {
     min_pausa = Number(localStorage.getItem('pausa'))
 
     min_pausa = min_pausa - 1
-    segundos = 59
+    segundos_pausa = 59
 
     document.getElementById('minutes_ok').innerHTML = min_pausa
-    document.getElementById('seconds_ok').innerHTML = segundos
+    document.getElementById('seconds_ok').innerHTML = segundos_pausa
 
     var min_interval = setInterval(minTimer, 60000)
     var seg_interval = setInterval(segTimer, 1000)
@@ -112,10 +112,10 @@ function momentoPausa() {
     }
 
     function segTimer() {
-        segundos = segundos - 1
-        document.getElementById('segunds_ok').innerHTML = segundos
+        segundos_pausa = segundos_pausa - 1
+        document.getElementById('segunds_ok').innerHTML = segundos_pausa
 
-        if (segundos <= 0) {
+        if (segundos_pausa <= 0) {
             if (min_pausa <= 0) {
                 ses = Number(localStorage.getItem('sessoes'))
                 ses = ses - 1
@@ -138,7 +138,7 @@ function momentoPausa() {
 
             }
 
-            segundos = 60
+            segundos_pausa = 60
         }
     }
 
