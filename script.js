@@ -133,7 +133,6 @@ function momentoPausa() {
                 } else {
                     volta.play();
 
-                    momentoAcao()
                 }
 
             }
