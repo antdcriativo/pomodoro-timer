@@ -113,7 +113,7 @@ function momentoPausa() {
 
     function segTimer() {
         segundos = segundos - 1
-        document.getElementById('segunds_ok').innerHTML = segundos
+        document.getElementById('seconds_ok').innerHTML = segundos
 
         if (segundos <= 0) {
             if (min_pausa <= 0) {
